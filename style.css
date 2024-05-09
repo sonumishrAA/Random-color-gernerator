@@ -1,0 +1,37 @@
+.head {
+  text-align: center;
+  color: rgb(5, 69, 46);
+  padding-left: 5px;
+}
+.box {
+  margin: 10px auto;
+  height: 200px;
+  width: 300px;
+  background-color: beige;
+  border-radius: 10px;
+}
+.bt {
+  margin: 10px auto;
+  height: 100px;
+  width: 200px;
+  /* background-color: aqua; */
+  align-items: center;
+  justify-content: center;
+  justify-items: center;
+}
+.btn {
+  color: rgb(0, 132, 255);
+  padding: 5px 10px 5px 10px;
+  /* margin: 2px 50% 2px 50%; */
+  font-size: 1.1em;
+  margin-left: 40px;
+  box-shadow: 2px 2px 5px black;
+  background-color: azure;
+  border-radius: 5px;
+  transition: transform 0.2s;
+}
+.btn:hover {
+  transform: scale(1.01);
+  color: aqua;
+  background-color: rgb(116, 85, 146);
+}
